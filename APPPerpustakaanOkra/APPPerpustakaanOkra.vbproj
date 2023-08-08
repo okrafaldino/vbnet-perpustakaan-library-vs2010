@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17802DF0-CD61-4DA3-8CC5-E4069E5411FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>APPPerpustakaanOkra</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APPPerpustakaanOkra.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APPPerpustakaanOkra.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSetAnggota.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAnggota.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBuku.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBuku.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBuku.vb">
+      <DependentUpon>DataSetBuku.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDetailKembali.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDetailKembali.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDetailPinjam.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDetailPinjam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetKategori.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetKategori.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetKembali.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetKembali.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPetugas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPetugas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPinjam.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPinjam.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetRak.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRak.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanAnggota.Designer.vb">
+      <DependentUpon>FormLaporanAnggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanAnggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanBuku.Designer.vb">
+      <DependentUpon>FormLaporanBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanDataMaster.Designer.vb">
+      <DependentUpon>FormLaporanDataMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanDataMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanDetailKembali.Designer.vb">
+      <DependentUpon>FormLaporanDetailKembali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanDetailKembali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanDetailPinjam.Designer.vb">
+      <DependentUpon>FormLaporanDetailPinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanDetailPinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanKategori.Designer.vb">
+      <DependentUpon>FormLaporanKategori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanKategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanKembali.Designer.vb">
+      <DependentUpon>FormLaporanKembali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanKembali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanPetugas.Designer.vb">
+      <DependentUpon>FormLaporanPetugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanPetugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanPinjam.Designer.vb">
+      <DependentUpon>FormLaporanPinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanPinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLaporanRak.Designer.vb">
+      <DependentUpon>FormLaporanRak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporanRak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterAnggota.designer.vb">
+      <DependentUpon>FormMasterAnggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterAnggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterBuku.Designer.vb">
+      <DependentUpon>FormMasterBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterKategori.Designer.vb">
+      <DependentUpon>FormMasterKategori.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterKategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterPetugas.designer.vb">
+      <DependentUpon>FormMasterPetugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterPetugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMasterRak.Designer.vb">
+      <DependentUpon>FormMasterRak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterRak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtama.Designer.vb">
+      <DependentUpon>FormMenuUtama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtamaAnggota.Designer.vb">
+      <DependentUpon>FormMenuUtamaAnggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuUtamaAnggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtamTamu.Designer.vb">
+      <DependentUpon>FormMenuUtamTamu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuUtamTamu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransaksiPengembalian.designer.vb">
+      <DependentUpon>FormTransaksiPengembalian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransaksiPengembalian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTransaksiPinjam.designer.vb">
+      <DependentUpon>FormTransaksiPinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTransaksiPinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormLaporanAnggota.resx">
+      <DependentUpon>FormLaporanAnggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanBuku.resx">
+      <DependentUpon>FormLaporanBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanDataMaster.resx">
+      <DependentUpon>FormLaporanDataMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanDetailKembali.resx">
+      <DependentUpon>FormLaporanDetailKembali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanDetailPinjam.resx">
+      <DependentUpon>FormLaporanDetailPinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanKategori.resx">
+      <DependentUpon>FormLaporanKategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanKembali.resx">
+      <DependentUpon>FormLaporanKembali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanPetugas.resx">
+      <DependentUpon>FormLaporanPetugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanPinjam.resx">
+      <DependentUpon>FormLaporanPinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporanRak.resx">
+      <DependentUpon>FormLaporanRak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterAnggota.resx">
+      <DependentUpon>FormMasterAnggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterBuku.resx">
+      <DependentUpon>FormMasterBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterKategori.resx">
+      <DependentUpon>FormMasterKategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterPetugas.resx">
+      <DependentUpon>FormMasterPetugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterRak.resx">
+      <DependentUpon>FormMasterRak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuUtama.resx">
+      <DependentUpon>FormMenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuUtamaAnggota.resx">
+      <DependentUpon>FormMenuUtamaAnggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuUtamTamu.resx">
+      <DependentUpon>FormMenuUtamTamu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransaksiPengembalian.resx">
+      <DependentUpon>FormTransaksiPengembalian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTransaksiPinjam.resx">
+      <DependentUpon>FormTransaksiPinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDetailKembali.rdlc" />
+    <EmbeddedResource Include="ReportKembali.rdlc" />
+    <EmbeddedResource Include="ReportDetailPinjam.rdlc" />
+    <EmbeddedResource Include="ReportPinjam.rdlc" />
+    <EmbeddedResource Include="ReportRak.rdlc" />
+    <EmbeddedResource Include="ReportAnggota.rdlc" />
+    <EmbeddedResource Include="ReportKategori.rdlc" />
+    <EmbeddedResource Include="ReportPetugas.rdlc" />
+    <EmbeddedResource Include="ReportBuku.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSetAnggota.xsc">
+      <DependentUpon>DataSetAnggota.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAnggota.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAnggota.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetAnggota.xss">
+      <DependentUpon>DataSetAnggota.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBuku.xsc">
+      <DependentUpon>DataSetBuku.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBuku.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBuku.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetBuku.xss">
+      <DependentUpon>DataSetBuku.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDetailKembali.xsc">
+      <DependentUpon>DataSetDetailKembali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDetailKembali.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDetailKembali.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetDetailKembali.xss">
+      <DependentUpon>DataSetDetailKembali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDetailPinjam.xsc">
+      <DependentUpon>DataSetDetailPinjam.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDetailPinjam.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDetailPinjam.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetDetailPinjam.xss">
+      <DependentUpon>DataSetDetailPinjam.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetKategori.xsc">
+      <DependentUpon>DataSetKategori.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetKategori.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetKategori.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetKategori.xss">
+      <DependentUpon>DataSetKategori.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetKembali.xsc">
+      <DependentUpon>DataSetKembali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetKembali.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetKembali.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetKembali.xss">
+      <DependentUpon>DataSetKembali.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPetugas.xsc">
+      <DependentUpon>DataSetPetugas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPetugas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPetugas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetPetugas.xss">
+      <DependentUpon>DataSetPetugas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPinjam.xsc">
+      <DependentUpon>DataSetPinjam.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPinjam.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPinjam.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetPinjam.xss">
+      <DependentUpon>DataSetPinjam.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRak.xsc">
+      <DependentUpon>DataSetRak.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetRak.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRak.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSetRak.xss">
+      <DependentUpon>DataSetRak.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-close-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-full-screen-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-minimize-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-process-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-other-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-other-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-report-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cat-profile-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cat-profile-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cat-profile-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-name-tag-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-badge-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-users-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-stack-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-repository-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stack-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-repository-801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-opened-folder-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-borrow-book-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-return-book-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-30 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stack-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-repository-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract_black_background %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-library-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-badge-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-users-50.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

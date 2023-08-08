@@ -1,0 +1,64 @@
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.MenuUtama.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.vbproj.GenerateResource.Cache
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLogin.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterPetugas.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterAnggota.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterBuku.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPengembalian.resources
+D:\Project VB\NEW PROJECT DESIGN\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPinjam.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterAnggota.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterBuku.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterPetugas.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.MenuUtama.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLogin.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPengembalian.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPinjam.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.vbproj.GenerateResource.Cache
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterRak.resources
+D:\Project VB\PROJECT FIX\APPPerpustakaanOkra\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterKategori.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.exe
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.pdb
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\bin\Debug\APPPerpustakaanOkra.xml
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterAnggota.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterBuku.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterKategori.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterPetugas.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMasterRak.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.MenuUtama.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLogin.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMenuUtamaAnggota.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPengembalian.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormTransaksiPinjam.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.vbproj.GenerateResource.Cache
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormMenuUtamTamu.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\APPPerpustakaanOkra.vbprojResolveAssemblyReference.cache
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanBuku.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanDataMaster.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\RdlCompile.cache
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\RdlCompile.compiled
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanPetugas.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanKategori.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanAnggota.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanRak.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanPinjam.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanDetailPinjam.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanKembali.resources
+D:\Project VB\PROJECT FIX\2. APPPerpustakaanOkra - Copy\APPPerpustakaanOkra\obj\x86\Debug\WindowsApplication1.FormLaporanDetailKembali.resources

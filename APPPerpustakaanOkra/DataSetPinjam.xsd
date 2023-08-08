@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPinjam" targetNamespace="http://tempuri.org/DataSetPinjam.xsd" xmlns:mstns="http://tempuri.org/DataSetPinjam.xsd" xmlns="http://tempuri.org/DataSetPinjam.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPinjam" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetPinjam" msprop:Generator_UserDSName="DataSetPinjam">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataPinjam" msprop:Generator_TableClassName="dataPinjamDataTable" msprop:Generator_TableVarName="tabledataPinjam" msprop:Generator_TablePropName="dataPinjam" msprop:Generator_RowDeletingName="dataPinjamRowDeleting" msprop:Generator_RowChangingName="dataPinjamRowChanging" msprop:Generator_RowEvHandlerName="dataPinjamRowChangeEventHandler" msprop:Generator_RowDeletedName="dataPinjamRowDeleted" msprop:Generator_UserTableName="dataPinjam" msprop:Generator_RowChangedName="dataPinjamRowChanged" msprop:Generator_RowEvArgName="dataPinjamRowChangeEvent" msprop:Generator_RowClassName="dataPinjamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NomorPinjam" msprop:Generator_ColumnVarNameInTable="columnNomorPinjam" msprop:Generator_ColumnPropNameInRow="NomorPinjam" msprop:Generator_ColumnPropNameInTable="NomorPinjamColumn" msprop:Generator_UserColumnName="NomorPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="TglPinjam" msprop:Generator_ColumnVarNameInTable="columnTglPinjam" msprop:Generator_ColumnPropNameInRow="TglPinjam" msprop:Generator_ColumnPropNameInTable="TglPinjamColumn" msprop:Generator_UserColumnName="TglPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="JamPinjam" msprop:Generator_ColumnVarNameInTable="columnJamPinjam" msprop:Generator_ColumnPropNameInRow="JamPinjam" msprop:Generator_ColumnPropNameInTable="JamPinjamColumn" msprop:Generator_UserColumnName="JamPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="KodeAnggota" msprop:Generator_ColumnVarNameInTable="columnKodeAnggota" msprop:Generator_ColumnPropNameInRow="KodeAnggota" msprop:Generator_ColumnPropNameInTable="KodeAnggotaColumn" msprop:Generator_UserColumnName="KodeAnggota" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemPinjam" msprop:Generator_ColumnVarNameInTable="columnItemPinjam" msprop:Generator_ColumnPropNameInRow="ItemPinjam" msprop:Generator_ColumnPropNameInTable="ItemPinjamColumn" msprop:Generator_UserColumnName="ItemPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalPinjam" msprop:Generator_ColumnVarNameInTable="columnTotalPinjam" msprop:Generator_ColumnPropNameInRow="TotalPinjam" msprop:Generator_ColumnPropNameInTable="TotalPinjamColumn" msprop:Generator_UserColumnName="TotalPinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="KodePetugas" msprop:Generator_ColumnVarNameInTable="columnKodePetugas" msprop:Generator_ColumnPropNameInRow="KodePetugas" msprop:Generator_ColumnPropNameInTable="KodePetugasColumn" msprop:Generator_UserColumnName="KodePetugas" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

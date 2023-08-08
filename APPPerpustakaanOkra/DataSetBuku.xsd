@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBuku" targetNamespace="http://tempuri.org/DataSetBuku.xsd" xmlns:mstns="http://tempuri.org/DataSetBuku.xsd" xmlns="http://tempuri.org/DataSetBuku.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBuku" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBuku" msprop:Generator_UserDSName="DataSetBuku">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataBuku" msprop:Generator_TableClassName="dataBukuDataTable" msprop:Generator_TableVarName="tabledataBuku" msprop:Generator_TablePropName="dataBuku" msprop:Generator_RowDeletingName="dataBukuRowDeleting" msprop:Generator_RowChangingName="dataBukuRowChanging" msprop:Generator_RowEvHandlerName="dataBukuRowChangeEventHandler" msprop:Generator_RowDeletedName="dataBukuRowDeleted" msprop:Generator_UserTableName="dataBuku" msprop:Generator_RowChangedName="dataBukuRowChanged" msprop:Generator_RowEvArgName="dataBukuRowChangeEvent" msprop:Generator_RowClassName="dataBukuRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeBuku" msprop:Generator_ColumnVarNameInTable="columnKodeBuku" msprop:Generator_ColumnPropNameInRow="KodeBuku" msprop:Generator_ColumnPropNameInTable="KodeBukuColumn" msprop:Generator_UserColumnName="KodeBuku" type="xs:string" minOccurs="0" />
+              <xs:element name="JudulBuku" msprop:Generator_ColumnVarNameInTable="columnJudulBuku" msprop:Generator_ColumnPropNameInRow="JudulBuku" msprop:Generator_ColumnPropNameInTable="JudulBukuColumn" msprop:Generator_UserColumnName="JudulBuku" type="xs:string" minOccurs="0" />
+              <xs:element name="Pengarang" msprop:Generator_ColumnVarNameInTable="columnPengarang" msprop:Generator_ColumnPropNameInRow="Pengarang" msprop:Generator_ColumnPropNameInTable="PengarangColumn" msprop:Generator_UserColumnName="Pengarang" type="xs:string" minOccurs="0" />
+              <xs:element name="Penerbit" msprop:Generator_ColumnVarNameInTable="columnPenerbit" msprop:Generator_ColumnPropNameInRow="Penerbit" msprop:Generator_ColumnPropNameInTable="PenerbitColumn" msprop:Generator_UserColumnName="Penerbit" type="xs:string" minOccurs="0" />
+              <xs:element name="Tahun" msprop:Generator_ColumnVarNameInTable="columnTahun" msprop:Generator_ColumnPropNameInRow="Tahun" msprop:Generator_ColumnPropNameInTable="TahunColumn" msprop:Generator_UserColumnName="Tahun" type="xs:string" minOccurs="0" />
+              <xs:element name="KodeKategori" msprop:Generator_ColumnVarNameInTable="columnKodeKategori" msprop:Generator_ColumnPropNameInRow="KodeKategori" msprop:Generator_ColumnPropNameInTable="KodeKategoriColumn" msprop:Generator_UserColumnName="KodeKategori" type="xs:string" minOccurs="0" />
+              <xs:element name="KodeRak" msprop:Generator_ColumnVarNameInTable="columnKodeRak" msprop:Generator_ColumnPropNameInRow="KodeRak" msprop:Generator_ColumnPropNameInTable="KodeRakColumn" msprop:Generator_UserColumnName="KodeRak" type="xs:string" minOccurs="0" />
+              <xs:element name="StokBuku" msprop:Generator_ColumnVarNameInTable="columnStokBuku" msprop:Generator_ColumnPropNameInRow="StokBuku" msprop:Generator_ColumnPropNameInTable="StokBukuColumn" msprop:Generator_UserColumnName="StokBuku" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

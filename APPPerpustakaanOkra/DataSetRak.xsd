@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRak" targetNamespace="http://tempuri.org/DataSetRak.xsd" xmlns:mstns="http://tempuri.org/DataSetRak.xsd" xmlns="http://tempuri.org/DataSetRak.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRak" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetRak" msprop:Generator_UserDSName="DataSetRak">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataRak" msprop:Generator_TableClassName="dataRakDataTable" msprop:Generator_TableVarName="tabledataRak" msprop:Generator_TablePropName="dataRak" msprop:Generator_RowDeletingName="dataRakRowDeleting" msprop:Generator_RowChangingName="dataRakRowChanging" msprop:Generator_RowEvHandlerName="dataRakRowChangeEventHandler" msprop:Generator_RowDeletedName="dataRakRowDeleted" msprop:Generator_UserTableName="dataRak" msprop:Generator_RowChangedName="dataRakRowChanged" msprop:Generator_RowEvArgName="dataRakRowChangeEvent" msprop:Generator_RowClassName="dataRakRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeRak" msprop:Generator_ColumnVarNameInTable="columnKodeRak" msprop:Generator_ColumnPropNameInRow="KodeRak" msprop:Generator_ColumnPropNameInTable="KodeRakColumn" msprop:Generator_UserColumnName="KodeRak" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaRak" msprop:Generator_ColumnVarNameInTable="columnNamaRak" msprop:Generator_ColumnPropNameInRow="NamaRak" msprop:Generator_ColumnPropNameInTable="NamaRakColumn" msprop:Generator_UserColumnName="NamaRak" type="xs:string" minOccurs="0" />
+              <xs:element name="KapasitasRak" msprop:Generator_ColumnVarNameInTable="columnKapasitasRak" msprop:Generator_ColumnPropNameInRow="KapasitasRak" msprop:Generator_ColumnPropNameInTable="KapasitasRakColumn" msprop:Generator_UserColumnName="KapasitasRak" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

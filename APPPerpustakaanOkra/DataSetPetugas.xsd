@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPetugas" targetNamespace="http://tempuri.org/DataSetPetugas.xsd" xmlns:mstns="http://tempuri.org/DataSetPetugas.xsd" xmlns="http://tempuri.org/DataSetPetugas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPetugas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetPetugas" msprop:Generator_UserDSName="DataSetPetugas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataPetugas" msprop:Generator_TableClassName="dataPetugasDataTable" msprop:Generator_TableVarName="tabledataPetugas" msprop:Generator_TablePropName="dataPetugas" msprop:Generator_RowDeletingName="dataPetugasRowDeleting" msprop:Generator_RowChangingName="dataPetugasRowChanging" msprop:Generator_RowEvHandlerName="dataPetugasRowChangeEventHandler" msprop:Generator_RowDeletedName="dataPetugasRowDeleted" msprop:Generator_UserTableName="dataPetugas" msprop:Generator_RowChangedName="dataPetugasRowChanged" msprop:Generator_RowEvArgName="dataPetugasRowChangeEvent" msprop:Generator_RowClassName="dataPetugasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodePetugas" msprop:Generator_ColumnVarNameInTable="columnKodePetugas" msprop:Generator_ColumnPropNameInRow="KodePetugas" msprop:Generator_ColumnPropNameInTable="KodePetugasColumn" msprop:Generator_UserColumnName="KodePetugas" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaPetugas" msprop:Generator_ColumnVarNameInTable="columnNamaPetugas" msprop:Generator_ColumnPropNameInRow="NamaPetugas" msprop:Generator_ColumnPropNameInTable="NamaPetugasColumn" msprop:Generator_UserColumnName="NamaPetugas" type="xs:string" minOccurs="0" />
+              <xs:element name="LevelPetugas" msprop:Generator_ColumnVarNameInTable="columnLevelPetugas" msprop:Generator_ColumnPropNameInRow="LevelPetugas" msprop:Generator_ColumnPropNameInTable="LevelPetugasColumn" msprop:Generator_UserColumnName="LevelPetugas" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

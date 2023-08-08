@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetKategori" targetNamespace="http://tempuri.org/DataSetKategori.xsd" xmlns:mstns="http://tempuri.org/DataSetKategori.xsd" xmlns="http://tempuri.org/DataSetKategori.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetKategori" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetKategori" msprop:Generator_UserDSName="DataSetKategori">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataKategori" msprop:Generator_TableClassName="dataKategoriDataTable" msprop:Generator_TableVarName="tabledataKategori" msprop:Generator_TablePropName="dataKategori" msprop:Generator_RowDeletingName="dataKategoriRowDeleting" msprop:Generator_RowChangingName="dataKategoriRowChanging" msprop:Generator_RowEvHandlerName="dataKategoriRowChangeEventHandler" msprop:Generator_RowDeletedName="dataKategoriRowDeleted" msprop:Generator_UserTableName="dataKategori" msprop:Generator_RowChangedName="dataKategoriRowChanged" msprop:Generator_RowEvArgName="dataKategoriRowChangeEvent" msprop:Generator_RowClassName="dataKategoriRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeKategori" msprop:Generator_ColumnVarNameInTable="columnKodeKategori" msprop:Generator_ColumnPropNameInRow="KodeKategori" msprop:Generator_ColumnPropNameInTable="KodeKategoriColumn" msprop:Generator_UserColumnName="KodeKategori" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaKategori" msprop:Generator_ColumnVarNameInTable="columnNamaKategori" msprop:Generator_ColumnPropNameInRow="NamaKategori" msprop:Generator_ColumnPropNameInTable="NamaKategoriColumn" msprop:Generator_UserColumnName="NamaKategori" type="xs:string" minOccurs="0" />
+              <xs:element name="Deskripsi" msprop:Generator_ColumnVarNameInTable="columnDeskripsi" msprop:Generator_ColumnPropNameInRow="Deskripsi" msprop:Generator_ColumnPropNameInTable="DeskripsiColumn" msprop:Generator_UserColumnName="Deskripsi" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetDetailKembali" targetNamespace="http://tempuri.org/DataSetDetailKembali.xsd" xmlns:mstns="http://tempuri.org/DataSetDetailKembali.xsd" xmlns="http://tempuri.org/DataSetDetailKembali.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetDetailKembali" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetDetailKembali" msprop:Generator_UserDSName="DataSetDetailKembali">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataDetailKembali" msprop:Generator_TableClassName="dataDetailKembaliDataTable" msprop:Generator_TableVarName="tabledataDetailKembali" msprop:Generator_TablePropName="dataDetailKembali" msprop:Generator_RowDeletingName="dataDetailKembaliRowDeleting" msprop:Generator_RowChangingName="dataDetailKembaliRowChanging" msprop:Generator_RowEvHandlerName="dataDetailKembaliRowChangeEventHandler" msprop:Generator_RowDeletedName="dataDetailKembaliRowDeleted" msprop:Generator_UserTableName="dataDetailKembali" msprop:Generator_RowChangedName="dataDetailKembaliRowChanged" msprop:Generator_RowEvArgName="dataDetailKembaliRowChangeEvent" msprop:Generator_RowClassName="dataDetailKembaliRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NomorKembali" msprop:Generator_ColumnVarNameInTable="columnNomorKembali" msprop:Generator_ColumnPropNameInRow="NomorKembali" msprop:Generator_ColumnPropNameInTable="NomorKembaliColumn" msprop:Generator_UserColumnName="NomorKembali" type="xs:string" minOccurs="0" />
+              <xs:element name="KodeBuku" msprop:Generator_ColumnVarNameInTable="columnKodeBuku" msprop:Generator_ColumnPropNameInRow="KodeBuku" msprop:Generator_ColumnPropNameInTable="KodeBukuColumn" msprop:Generator_UserColumnName="KodeBuku" type="xs:string" minOccurs="0" />
+              <xs:element name="JumlahBuku" msprop:Generator_ColumnVarNameInTable="columnJumlahBuku" msprop:Generator_ColumnPropNameInRow="JumlahBuku" msprop:Generator_ColumnPropNameInTable="JumlahBukuColumn" msprop:Generator_UserColumnName="JumlahBuku" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
