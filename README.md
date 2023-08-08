@@ -68,7 +68,10 @@ Aplikasi ini memiliki 3 pengguna yaitu :
 2. Pastikan Anda memiliki Microsoft Visual Studio 2010 atau versi yang lebih baru.
 3. Buka proyek menggunakan Visual Studio.
 4. Konfigurasi koneksi database di module koneksi dengan pengaturan MySQL ODBC dan XAMPP.
-5. Jalankan aplikasi melalui IDE Visual Studio atau hasil kompilasi.
+   - Buat database dengan nama 'perpustakaan' dan import perpustakaan.sql
+   - Mysql Odbc version 3.51 : atur dengan membuat data source namenya = 'koneksi'
+   - Periksa module 1 apakah sudah sesuai.
+6. Jalankan aplikasi melalui IDE Visual Studio atau hasil kompilasi.
 
 ## Kontribusi
 
